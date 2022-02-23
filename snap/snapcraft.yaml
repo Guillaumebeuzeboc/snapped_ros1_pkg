@@ -22,6 +22,9 @@ parts:
     stage-packages:
       - ros-noetic-rosbash # necessary if we need rosrun
       - ros-noetic-roslaunch # necessary if we need roslaunch
+    stage-snaps:
+      - publisher-subscriber
+
 apps:
 #  roscore:   # necessary only if you want to start the roscore from this snap
 #    command: opt/ros/noetic/bin/roscore

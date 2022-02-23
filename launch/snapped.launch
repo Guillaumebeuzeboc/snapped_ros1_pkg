@@ -2,4 +2,7 @@
   <node name="snapped_ros1_pkg_node" pkg="snapped_ros1_pkg" type="snapped_ros1_pkg_node">
     <rosparam command="load" file="$(find snapped_ros1_pkg)/config/config.yaml" />
   </node>
+
+  <node pkg="snapped_ros1_pkg" type="talker_from_the_past.sh" name="talker_from_the_past" output="screen"/>
+
 </launch>
