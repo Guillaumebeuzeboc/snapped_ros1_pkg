@@ -23,7 +23,7 @@ parts:
       - ros-noetic-rosbash # necessary if we need rosrun
       - ros-noetic-roslaunch # necessary if we need roslaunch
 apps:
-#  roscore:
+#  roscore:   # necessary only if you want to start the roscore from this snap
 #    command: opt/ros/noetic/bin/roscore
 #    plugs: [network, network-bind]
 #    extensions: [ros1-noetic]
