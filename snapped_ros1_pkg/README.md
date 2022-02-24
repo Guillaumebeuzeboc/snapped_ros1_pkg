@@ -1,5 +1,5 @@
 # snapped_ros1_pkg
-ROS1 (Noetic) package, packed as a snap
+ROS1 (Melodic) package, packed as a snap
 ## How to generate the snap
 - `snapcraft --enable-experimental-extensions`
 ## How to install the snap
