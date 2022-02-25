@@ -14,6 +14,8 @@ parts:
     plugin: catkin
     source: .
     source-space: snapped_ros1_pkg
+    stage:
+      - -lib/systemd/system/sudo.service
 apps:
 #  roscore:   # necessary only if you want to start the roscore from this snap
 #    command: opt/ros/melodic/bin/roscore
